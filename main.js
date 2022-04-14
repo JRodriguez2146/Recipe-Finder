@@ -2,7 +2,7 @@ const form = document.querySelector('form');
 const results = document.querySelector('.results');
 const search = document.querySelector('.search');
 let searchQuery = '';
-const APP_KEY = 'c1d7900f94cb40eea2257928784b99a8';
+const APP_KEY = '******';
 const URL = ' https://api.spoonacular.com/recipes/findByIngredients?apiKey=${APP_KEY}';
 
 
